@@ -3,11 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    -   "build": "vite build",
-    +   "build": "node node_modules/vite/bin/vite.js build",
-        "dev":   "vite",
-        "preview":"vite preview"
-      },    
+    "build": "node node_modules/vite/bin/vite.js build",
+    "dev": "vite",
+    "preview": "vite preview"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
